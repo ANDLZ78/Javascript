@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript</title>
+
+  <script>
+    // setTimeout(function(){document.write('Teste')}, 3000) controla o tempo que a função sera executada o tempo no final
+
+    var i = 5
+   var x =  setInterval(function() { //controla o tempo que a função sera executada
+      document.write(i)
+      i--
+      if(i === 0){
+        clearInterval(x)//usado para limpar ao chegar no final da execução
+      }
+    }, 1000)
+
+
+    //setInterval(function(){document.write('Teste' + '<br />')}, 2000)função continua não para de executar o tempo no final
+  </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+   
+   <script>
+
+    //  function acao(){
+    //    alert('Evento disparado')
+    //  }
+     function acao1(){
+       alert('Elemento foi cliclado')
+     }
+     function acao2(){
+       alert('O cursor do mouse deixou a região do elemento')
+     }
+
+    </script>
+    
+  </head>
+
+  <body>
+    <!-- <div onclick="acao()" style="background-color: #ccc; height: 150px; width: 150px;"></div> //-- evento disparado com o um click.-->
+    <!-- <div ondblclick="acao()" style="background-color: #ccc; height: 150px; width: 150px;"></div> --evento disparado com dois click--> 
+    <!-- <div onmouseup="acao()" style="background-color: #ccc; height: 150px; width: 150px;"></div> --a clicar e soltar o clique executa a função-->
+    <!-- <div onmouseover="acao()" style="background-color: #ccc; height: 150px; width: 150px;"></div> --ao passar o mouse sobre o conteudo executa a função-->
+    <!-- <div onmouseout="acao()" style="background-color: #ccc; height: 150px; width: 150px;"></div> --no momento que passar o mouse em cima e tirar de cima executa função-->
+    <div onclick="acao1()" onmouseout="acao2()" style="background-color: #ccc; height: 150px; width: 150px;"></div>
+  </body>
+</html>
